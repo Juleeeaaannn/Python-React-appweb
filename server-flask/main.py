@@ -15,7 +15,7 @@ CORS(app) #Activamos CORS para la todas las rutas de flask
 
 @app.route('/', methods=['GET', 'POST'])
 def inicio():
-    return a("Hola mundo!")
+    return ["coca cola", "fanta", "sprite"]
 
 
 if __name__ == '__main__':

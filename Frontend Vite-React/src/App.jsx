@@ -10,10 +10,10 @@ import Estadisticas from "./components/estadisticas/Estadisticas.jsx";
 function App() {
   const [productos, setProductos] = useState([]);
   useEffect(() => {
-    fetch("/cargar")
+    fetch("http://localhost:5000/")
       .then((res) => res.json())
       .then((data) => {
-        setProductos(data);
+        console.log(data);
       });
   }, []);
   return (
