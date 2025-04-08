@@ -1,0 +1,21 @@
+.bg-fondo{
+    background-color: #1E1E1E;
+}
+.bg-grey{
+    background-color: #868686;
+}
+.round-l{
+    border-radius: 0px 50px 50px 0px;   
+}
+.round-r{
+    border-radius: 50px 0px 0px 50px;
+}
+.buttonsubmit{
+    border-radius: 10px;
+    background-color: #00A41E;
+    color: white;
+    padding: 10px;
+}
+.buttonsubmit:hover{
+    box-shadow: 0px 0px 10px 0px white;
+}
