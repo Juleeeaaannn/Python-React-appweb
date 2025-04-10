@@ -1,8 +1,11 @@
 import React from 'react'
-
+import {Nav} from './Nav.jsx'
 function Estadisticas() {
   return (
-    <div>Estadisticas</div>
+    <div>
+      <Nav />
+      <h1>Estadisticas</h1>
+      </div>
   )
 }
 

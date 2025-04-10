@@ -35,3 +35,8 @@ a:hover{
     color: #1213AA;
     border-radius: 50px;
 }
+.activado{
+    background-color: #ffffff;
+    color: #1213AA;
+    border-radius: 50px;
+}

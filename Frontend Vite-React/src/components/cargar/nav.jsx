@@ -7,7 +7,7 @@ export const Nav = () => {
     <nav className="Nav container-fluid p-5">
       <ul className="rounded-fill">
           <li className="">
-            <Link className="" to="/cargar">CARGAR</Link>
+            <Link className="activado" to="/cargar">CARGAR</Link>
           </li>
           <li className="">
             <Link className="" to="/editar">EDITAR</Link>

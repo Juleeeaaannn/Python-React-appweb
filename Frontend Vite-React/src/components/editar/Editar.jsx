@@ -1,8 +1,11 @@
 import React from 'react'
-
+import { Nav } from './Nav.jsx'
 function Editar() {
   return (
-    <div>Editar</div>
+    <div>
+    <Nav />
+    <h1>Editar</h1>
+    </div>
   )
 }
 

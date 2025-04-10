@@ -1,8 +1,10 @@
 import React from 'react'
+import {Nav} from './Nav.jsx'
 import './Cargar.css'
 function Cargar() {
   return (
     <div className='bg-fondo'>
+      <Nav />
       <form className='container-fluid px-5'>
         <div className="row pt-3 text-center">
           <label className="col-4 round-r bg-grey text-white fs-2 p-4" htmlFor="nombre">Nombre Frontal</label>
